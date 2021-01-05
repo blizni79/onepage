@@ -4,74 +4,38 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Scalable CSS grids and CSS columns without media queries</title>
+   <title>HTML onepager example</title>
    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header>
+        <section class="header-intro">
+            <h2>Hallo Wereld!</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum optio animi ex, autem magnam nisi recusandae magni, obcaecati quia, possimus maiores! Dolorem incidunt, deserunt pariatur repellat fuga molestiae sint eius.</p>
+        </section>
+    </header>
 
-<p>Make the screen wider than 1330px and you'll see the difference between auto-fill and auto-fit! With auto-fit, the columns will automatically expand to take up all of the available horizontal space. </p>
+    <nav id="main-menu">
+        <a href="index.html" class="website-naam">home</a>
+        <a href="about.html">about</a>
+        <a href="contact.html">hanze</a>
+        <a href="contact.html">contact</a>
+    </nav>
 
-   auto-fill
-<div class="grid-container-cssgrid grid-container--fill">
-  <div class="grid-element">
-    1
-  </div>
-  <div class="grid-element">
-    2
-  </div>
-  <div class="grid-element">
-    3
-  </div>
-  <div class="grid-element">
-    4
-  </div>
-  <div class="grid-element">
-    5
-  </div>
-</div>
+    <section id="main-content">
+        <article>
+            <h2>My first column</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ornare felis vestibulum laoreet mattis. In sit amet malesuada quam. Duis laoreet urna nec nunc commodo, quis finibus lorem imperdiet. Maecenas vel iaculis ante. Nullam interdum posuere ipsum, at imperdiet erat euismod id. Nunc et nisl non magna lacinia pharetra. Integer nec interdum mi, tincidunt ornare nulla. Nullam viverra velit et nisl imperdiet consectetur. Sed ipsum dui, suscipit a libero posuere, tincidunt cursus tortor. Aliquam tempus neque ac eros consequat tempor.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ornare felis vestibulum laoreet mattis. In sit amet malesuada quam. Duis laoreet urna nec nunc commodo, quis finibus lorem imperdiet. Maecenas vel iaculis ante. Nullam interdum posuere ipsum, at imperdiet erat euismod id. Nunc et nisl non magna lacinia pharetra. Integer nec interdum mi, tincidunt ornare nulla. Nullam viverra velit et nisl imperdiet consectetur. Sed ipsum dui, suscipit a libero posuere, tincidunt cursus tortor. Aliquam tempus neque ac eros consequat tempor.</p>
+        </article>
 
-<hr>
-
-auto-fit
-<div class="grid-container-cssgrid grid-container--fit">
-  <div class="grid-element">
-    1
-  </div>
-  <div class="grid-element">
-    2
-  </div>
-  <div class="grid-element">
-    3
-  </div>
-  <div class="grid-element">
-    4
-  </div>
-  <div class="grid-element">
-    5
-  </div>
-</div>
-
-<hr>
-
-<h2>CSS columns</h2>
-   <p>Notice the <strong>different</strong> order of the grid items in the columns, 1,2,3,4 etc!!</p>
-<div class="grid-container csscolumns">
-  <div class="grid-element">
-    1
-  </div>
-  <div class="grid-element">
-    2
-  </div>
-  <div class="grid-element">
-    3
-  </div>
-  <div class="grid-element">
-    4
-  </div>
-  <div class="grid-element">
-    5
-  </div>
-</div>
-
+        <article>
+            <h2>my second column</h2>
+            <p>Nulla eget pulvinar elit. Etiam ultricies fermentum odio, at placerat ex blandit eget. Proin maximus arcu arcu, sit amet rutrum tellus suscipit vitae. In tempus leo vel vehicula maximus. In aliquet vel leo ac commodo. Sed volutpat orci mauris, eu congue diam interdum eget. In nec nisl nec purus tristique mollis. Aenean vehicula sapien et commodo pretium.</p>
+            <p>Nunc ac purus urna. Aliquam ultrices, lacus ut sagittis tempor, magna ipsum scelerisque ipsum, a efficitur purus diam vitae eros. Sed ac urna velit. Quisque facilisis euismod commodo. Sed pellentesque, leo et eleifend tempus, dui massa ultricies diam, vel volutpat neque urna sed nisi. Curabitur aliquam bibendum urna, pharetra dapibus dolor consequat vulputate. Fusce vulputate nisl vitae scelerisque rutrum. Fusce viverra neque in sapien vestibulum egestas. Sed dignissim accumsan sem ac vulputate. Curabitur finibus nibh in quam porta, sit amet tincidunt felis volutpat.
+            </p>
+        </article>
+    </section>
+   
 </body>
 </html>
