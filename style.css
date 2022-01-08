@@ -18,7 +18,7 @@ img {
 header {
 	height: 390px;
 	margin: 0 0 100px 0;
-	background-image: url("../images/ship.jpeg");
+	background-image: url("images/ship.jpeg");
 	background-position: 90% 30%;
 	background-size: cover;
 	position: relative;
